@@ -1,0 +1,3 @@
+C:/GIT/9-practica/9-practica-contenedores-toreno-anymz7/cmake-build-debug/CMakeFiles/9_practica_contenedores_toreno_anymz7.dir
+C:/GIT/9-practica/9-practica-contenedores-toreno-anymz7/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/GIT/9-practica/9-practica-contenedores-toreno-anymz7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
