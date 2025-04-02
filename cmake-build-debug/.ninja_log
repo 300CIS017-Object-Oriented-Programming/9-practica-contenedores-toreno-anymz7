@@ -1,0 +1,24 @@
+# ninja log v6
+15	1151	7652464051322844	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/src/Videojuego.cpp.obj	4c2048a45fdb0861
+25	1498	7652464051427917	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/src/Jugador.cpp.obj	4d3b1421c7ff0060
+4	1512	7652464051227944	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/main.cpp.obj	6560a7c9c1c146d6
+1154	2186	7652464062719524	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/src/Torneo.cpp.obj	a2c3fe0fca73b065
+2186	2541	7652464073036747	9_practica_contenedores_toreno_anymz7.exe	90114f06c4bfd841
+19	1478	7652464639640902	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/main.cpp.obj	6560a7c9c1c146d6
+1479	1642	7652464654235655	9_practica_contenedores_toreno_anymz7.exe	90114f06c4bfd841
+6	1557	7652465032799944	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/main.cpp.obj	6560a7c9c1c146d6
+1558	1720	7652465048315934	9_practica_contenedores_toreno_anymz7.exe	90114f06c4bfd841
+16	1556	7652465233203066	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/main.cpp.obj	6560a7c9c1c146d6
+1556	1719	7652465248612901	9_practica_contenedores_toreno_anymz7.exe	90114f06c4bfd841
+17	1748	7652474532132524	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/main.cpp.obj	6560a7c9c1c146d6
+16	1457	7652478544028966	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/main.cpp.obj	6560a7c9c1c146d6
+22	1521	7652478544088801	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/src/Torneo.cpp.obj	a2c3fe0fca73b065
+1521	1700	7652478559080782	9_practica_contenedores_toreno_anymz7.exe	90114f06c4bfd841
+16	1488	7652480619760941	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/main.cpp.obj	6560a7c9c1c146d6
+1489	1669	7652480634488212	9_practica_contenedores_toreno_anymz7.exe	90114f06c4bfd841
+7	1378	7652480937733244	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/main.cpp.obj	6560a7c9c1c146d6
+1378	1551	7652480951448025	9_practica_contenedores_toreno_anymz7.exe	90114f06c4bfd841
+10	1335	7652481839872729	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/main.cpp.obj	6560a7c9c1c146d6
+1336	1500	7652481853134894	9_practica_contenedores_toreno_anymz7.exe	90114f06c4bfd841
+24	1725	7652500958868358	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/src/Jugador.cpp.obj	4d3b1421c7ff0060
+11	1735	7652500958740411	CMakeFiles/9_practica_contenedores_toreno_anymz7.dir/main.cpp.obj	6560a7c9c1c146d6
