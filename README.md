@@ -121,25 +121,25 @@ Si no lo cumples o no estás seguro, deja el espacio en blanco.
 
 ## 🔵 Diseño orientado a objetos
 
-| | Pregunta |
-|---|----------|
-| [ ] | Comprendo el propósito de cada clase (`Videojuego`, `Jugador`, `Torneo`) dentro del sistema. |
-| [ ] | Sé identificar atributos y métodos relevantes de una clase a partir de un enunciado. |
-| [ ] | Entiendo el diagrama de clases entregado y puedo explicar las relaciones entre las clases. |
-| [ ] | Sé diferenciar entre una relación de asociación, composición y agregación. |
+|     | Pregunta |
+|-----|----------|
+| [X] | Comprendo el propósito de cada clase (`Videojuego`, `Jugador`, `Torneo`) dentro del sistema. |
+| [X] | Sé identificar atributos y métodos relevantes de una clase a partir de un enunciado. |
+| [X] | Entiendo el diagrama de clases entregado y puedo explicar las relaciones entre las clases. |
+| [X] | Sé diferenciar entre una relación de asociación, composición y agregación. |
 | [ ] | Comprendo el concepto de compartir instancias mediante punteros para evitar duplicación de objetos. |
 
 ---
 
 ## 🟣 Codificación orientada a objetos en C++
 
-| | Pregunta |
-|---|----------|
-| [ ] | Sé implementar clases correctamente en C++ utilizando atributos privados y métodos públicos. |
+|     | Pregunta |
+|-----|----------|
+| [X] | Sé implementar clases correctamente en C++ utilizando atributos privados y métodos públicos. |
 | [ ] | Sé crear constructores adecuados y definir métodos para modificar o consultar atributos. |
 | [ ] | Comprendo el uso de punteros en las relaciones entre clases. |
 | [ ] | Soy capaz de navegar entre objetos relacionados usando punteros (ej.: acceder a los videojuegos inscritos desde un jugador). |
-| [ ] | Puedo codificar de manera fluida la interacción entre las clases utilizando menús y llamadas a métodos. |
+| [X] | Puedo codificar de manera fluida la interacción entre las clases utilizando menús y llamadas a métodos. |
 
 ---
 
@@ -157,12 +157,12 @@ Si no lo cumples o no estás seguro, deja el espacio en blanco.
 
 ## 🟡 Fluidez en la implementación
 
-| | Pregunta |
-|---|----------|
-| [ ] | Sé crear y configurar correctamente un proyecto en **CLion**. |
-| [ ] | Puedo crear los archivos `.h` y `.cpp` necesarios para las clases del sistema sin dificultad. |
+|     | Pregunta |
+|-----|----------|
+| [X] | Sé crear y configurar correctamente un proyecto en **CLion**. |
+| [X] | Puedo crear los archivos `.h` y `.cpp` necesarios para las clases del sistema sin dificultad. |
 | [ ] | Me siento cómodo escribiendo código desde cero aplicando los principios de orientación a objetos. |
-| [ ] | Logro construir un menú de interacción funcional y bien estructurado. |
+| [X] | Logro construir un menú de interacción funcional y bien estructurado. |
 | [ ] | Soy capaz de realizar pruebas rápidas para verificar que las clases y métodos funcionan antes de terminar el programa completo. |
 
 ---
