@@ -20,7 +20,8 @@ private:
 
 
 public:
-    Jugador(int _nivelRanking, string _nickname);
+    Jugador(){}
+    Jugador(string _nickname, int _nivelRanking);
     int get_nivelRanking();
     string get_nickname();
     void mostrarInfoJugador();

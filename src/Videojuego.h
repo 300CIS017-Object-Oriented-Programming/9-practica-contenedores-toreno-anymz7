@@ -15,15 +15,21 @@ private:
     string genero;
     int nivelDificultad;
 
-
 public:
-    Videojuego(int _codigo, string _nombre);
+    Videojuego() = default;
+
+    Videojuego(int _codigo, string _nombre, string _genero, int _nivelDificultad);
+
     int get_codigo();
-    string getNombre();
+
+    string get_nombre();
+
+    string get_genero();
+
+    int get_nivelDificultad();
+
     void mostrarInfoVideojuego();
-
 };
-
 
 
 #endif //VIDEOJUEGO_H

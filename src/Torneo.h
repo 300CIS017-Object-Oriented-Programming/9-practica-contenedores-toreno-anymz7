@@ -7,6 +7,8 @@
 
 #include <iostream>
 #include <vector>
+#include <map>
+
 
 #include "Videojuego.h"
 #include "Jugador.h"
@@ -16,18 +18,19 @@ using namespace std;
 
 class Torneo {
 private:
-    vector<Videojuego*> videojuegosDisponibles;
-    vector<Jugador*> jugadoresRegistrados;
-    vector<Videojuego> videojuegos;
-    vector<Jugador> jugadores;
-
-
+    map<string, Videojuego*> videojuegosDisponibles;
+    map<string, Jugador*> jugadoresRegistrados;
 
 public:
-    Torneo(vector<Videojuego*> _videojuegosDisponibles, vector<Jugador> _jugadoresRegistrados);
+    Torneo () = default;
     string getVideojuegosDisponiblescodigo();
     string getJugadoresRegistrados();
     void mostrarInfoTorneo();
+
+    void registrarVideojuego(int codigo, string nombre, string genero, int nivelDificultad);
+    void registrarJugador(string nickname,int nivelRanking);
+    void inscribirJugador(string nickname,int codigo);
+    void mostrarVideojuegosDeJugador(string nickname);
 
 };
 

@@ -18,3 +18,8 @@ int Jugador::get_nivelRanking() { return nivelRanking; }
 void Jugador::mostrarInfoJugador() {
     cout << "Nickname: " << nickname << " | Nivel de habilidad: " << nivelRanking << endl;
 }
+void Jugador::mostrarVideojuegosDeJugador(nickname) {
+    videojuegosInscritos.push_back(Jugador(nickname));
+    cout << mostrarVideojuegosDeJugador << endl;
+
+}
