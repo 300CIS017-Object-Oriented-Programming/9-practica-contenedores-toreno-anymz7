@@ -9,12 +9,12 @@ void Torneo::registrarVideojuego(int codigo, string nombre, string genero, int n
 
     for (const auto& v : videojuegos) {
         if (v.get_codigo () == codigo) {
-            cout << "Error: El videojuego con código: ", codigo, "ya se encuentra registrado.\n";
+            cout << "Error: El videojuego con código: " << codigo << "ya se encuentra registrado.\n";
             return;
         }
     }
 
-    videojuegos.push_back(Videojuego(codigo, nombre,genero,nivelDificultad));
+    videojuegosd.push_back(Videojuego(codigo, nombre,genero,nivelDificultad));
     cout << "Videojuego Registrado!\n";
 
 }

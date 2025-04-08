@@ -21,6 +21,7 @@ private:
     map<string, Videojuego*> videojuegosDisponibles;
     map<string, Jugador*> jugadoresRegistrados;
 
+
 public:
     Torneo () = default;
     string getVideojuegosDisponiblescodigo();

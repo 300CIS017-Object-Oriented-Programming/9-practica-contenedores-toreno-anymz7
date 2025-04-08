@@ -13,17 +13,19 @@ Jugador::Jugador(string nick, int nvRanking) {
     else nivelRanking = nvRanking;
 }
 
-string Jugador::getNickname() { return nickname; }
+string Jugador::get_nickname() { return nickname; }
 
-int Jugador::getNivelRanking() { return nivelRanking;}
-std::vector<Videojuego*> Jugador::getvideojuegosInstritos() { return videojuegosInscritos;}
+int Jugador::get_nivelRanking() { return nivelRanking;}
+std::vector<Videojuego*> Jugador::getVideojuegosInscritos() { return videojuegosInscritos; }
 
-void Jugador::inscritoEn(Videojuego* juego) {
+int Jugador::inscritoEn(Videojuego* juego) {
     for (int i = 0; i < videojuegosInscritos.size(); i++) {
-        if (videojuegosInscritos[i]->getCodigo() == juego->getCodigo()) return 1;
+        if (videojuegosInscritos[i]->get_codigo() == juego->get_codigo())
+            return 1;
     }
     return 0;
 }
+
 int Jugador::inscribirEnJuego(Videojuego* juego) {
     if (inscritoEn(juego) == 0) {
         videojuegosInscritos.push_back(juego);
@@ -31,7 +33,7 @@ int Jugador::inscribirEnJuego(Videojuego* juego) {
     }
     return 0;
 }
-void Jugador::mostrarVideojuegosDeJugador(nickname) {
+void Jugador::mostrarVideojuegosDeJugador() {
     std::cout << "Jugador: " << nickname << " participa en:\n";
     if (videojuegosInscritos.size() == 0) {
         std::cout << "  (No inscrito en ningun videojuego)\n";
@@ -41,13 +43,4 @@ void Jugador::mostrarVideojuegosDeJugador(nickname) {
             videojuegosInscritos[i]->mostrarInfoJugador();
         }
     }
-
-}
-int Jugador::promedioDificultad() {
-    if (videojuegosInscritos.size() == 0) return 0;
-    int suma = 0;
-    for (int i = 0; i < videojuegosInscritos.size(); i++) {
-        suma = suma + videojuegosInscritos[i]->getNivelDificultad();
-    }
-    return suma / videojuegosInscritos.size();
 }

@@ -21,13 +21,11 @@ public:
     Videojuego(int _codigo, string _nombre, string _genero, int _nivelDificultad);
 
     int get_codigo();
-
     string get_nombre();
-
     string get_genero();
-
     int get_nivelDificultad();
 
+    void mostrarInfoJugador();
     void mostrarInfoVideojuego();
 };
 

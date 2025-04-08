@@ -23,8 +23,8 @@ private:
 public:
     Jugador(){}
     Jugador(string nick, int nvRanking);
-    std::string getNickname();
-    int getNivelRanking();
+    std::string get_nickname();
+    int get_nivelRanking();
     std::vector<Videojuego*> getVideojuegosInscritos();
     int inscritoEn(Videojuego* juego);
     int inscribirEnJuego(Videojuego* juego);
