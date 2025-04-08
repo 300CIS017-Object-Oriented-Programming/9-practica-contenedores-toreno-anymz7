@@ -6,6 +6,7 @@
 #define JUGADOR_H
 
 #include <iostream>
+#include <string>
 #include <vector>
 #include "Videojuego.h"
 
@@ -14,17 +15,21 @@ using namespace std;
 
 class Jugador {
 private:
-    string nickname;
+    std::string nickname;
     int nivelRanking;
-    vector<Videojuego*> videojuegosInscritos;
+    std::vector<Videojuego*> videojuegosInscritos;
 
 
 public:
     Jugador(){}
-    Jugador(string _nickname, int _nivelRanking);
-    int get_nivelRanking();
-    string get_nickname();
-    void mostrarInfoJugador();
+    Jugador(string nick, int nvRanking);
+    std::string getNickname();
+    int getNivelRanking();
+    std::vector<Videojuego*> getVideojuegosInscritos();
+    int inscritoEn(Videojuego* juego);
+    int inscribirEnJuego(Videojuego* juego);
+    void mostrarVideojuegosDeJugador();
+    void inscribirEnJuego();
 
 };
 
